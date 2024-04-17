@@ -9,10 +9,10 @@ function checkLuck() {
     document.querySelector("textarea").style.display = "block";
     if (sum % num == 0) {
       document.querySelector("textarea").innerText =
-        "Hurrayyy, your birthdate is lucky";
+        "Hurrayyy, your birthdate is lucky🥳";
     } else {
       document.querySelector("textarea").innerText =
-        "Oops, your birthdate is unlucky";
+        "Oops, your birthdate is unlucky.True luck comes from hardwork🙌";
     }
   }else{
     document.querySelector("#errMsg").style.display="block";
